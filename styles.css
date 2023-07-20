@@ -1,0 +1,210 @@
+body{
+    margin:0;
+    scroll-behavior: smooth;
+    font-family: roboto;
+    font-weight:300px;
+    line-height:1.4;
+
+}
+html,body{
+    scroll-behavior: smooth;
+}
+section{
+    scroll-margin: 50px;
+}
+
+.hero-section{
+    background-image:url('./Unplash.png');
+    height:100vh;
+    
+    background-size: cover ;   
+    margin:0;
+    display: grid;
+    color:white;
+    place-items: center;
+    text-align: center;
+
+}
+.hero-section h1{
+    font-size: 72px;
+
+}
+.hero-section{
+    font-size: 24px;
+}
+
+
+.heading{
+    height: 55px;
+    background-color: #270082;
+    display: flex;
+    align-items: center;
+    margin:0;
+    
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.myTunes{
+    color:white;
+    margin-left:120px ;
+    font-weight: 700;
+    font-family: roboto;
+}
+.nav-items{
+    color:#fff;
+    display: flex;
+    margin-left: 983px;
+    justify-content: space-evenly;
+    gap:20px;
+    
+}
+.para{
+    margin:auto 30px auto auto;
+}
+
+.nav-items a{
+    color:white;
+    display : flex;
+    text-decoration: none;
+    margin:auto 30px auto auto;
+}
+ul{
+    list-style: none;
+}
+.nav-items ul{
+    display: flex;
+    
+}
+.nav-items li{
+    border-bottom:2px solid transparent;
+    transition: 0.2s ease-in;
+}
+.nav-items li:hover{
+    justify-content: space-evenly;
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+.hero-section .container
+{
+    width: 921px;
+}
+
+
+.music-section{
+    padding-top: 50px;
+    background-color: #281154;
+    height: 100vh;
+    display:grid;
+}
+.music-section .container{
+    color:white;
+    width: 1000px;
+    text-align: center;
+    margin-left:235px ;
+    /* display: flex;
+    flex-direction: column;
+    gap: 30px; */
+    
+}
+.ipad-iphone-img{
+    margin-top: -400px;
+    position:relative;
+    top:400px;
+}
+
+button{
+    padding:10px 15px;
+    border: none;
+    transition: 0.25s ease-in-out;
+}
+button:hover{
+    opacity:0.8;
+    transition: 0.25s ease-in-out;
+}
+
+.primary-btn{
+    background-color:red;
+    color: white;
+}
+.secondary-btn{
+    background-color: purple;
+    color:white;
+}
+
+.about-music{
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap:30px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -200px;
+}
+
+.container .temp4{
+    width: 1045px;
+}
+.video-section{
+    background-image: url(./video.png);
+    min-height: 800px;
+    place-items: center;
+    color: white;
+    text-align: center;
+}
+.video-section .container{
+    align-items: center;
+    width: 937px;
+    justify-content: center;
+    padding-top: 197px;
+    margin-left: 252px;
+
+}
+
+.gift-section{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap:50px;
+    
+}
+/* .gift-content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+} */
+.gift-content .secondary-btn{
+    width: 113px;
+}
+.gift-section{
+    scroll-margin: 120px;
+}
+
+.footer-links .temp5{
+    margin-left:40px ;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.footer-upper{
+    background-color: #1B0058;
+    padding: 20px;
+}
+.footer-upper .containerf{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-lower{
+    background-color:#270082;
+    display: grid;
+    color: white;
+    justify-content: center;
+    
+}
+
